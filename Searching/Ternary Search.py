@@ -24,7 +24,7 @@ def recursive_ternary_search(arr, left, right, target):
 # Best-Case Time complexity = O(1)
 # Average-Case Time complexity = O(log n (base 3))
 # Worst-Case Time complexity = O(log n (base 3))
-# Space complexity = O(log n)
+# Space complexity = O(log n (base 3))
 
 
 # Iterative Ternary Search
