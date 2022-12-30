@@ -26,7 +26,7 @@ def recursive_binary_search(arr, left, right, target):
 def iterative_binary_search(arr, target):
     left = 0
     right = len(arr) - 1
-    while left <= right:
+    while left < right:
         mid = (left + right) // 2
         if arr[mid] == target:
             return mid
