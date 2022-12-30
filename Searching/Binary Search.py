@@ -14,19 +14,6 @@ def recursive_binary_search(arr, left, right, target):
         return -1
 
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
-
-left = 0
-right = len(arr) - 1
-
-result = recursive_binary_search(arr, left, right, target)
-
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
-
 # Time complexity = O(log n)
 # Space complexity = O(log n)
 
@@ -49,11 +36,22 @@ def iterative_binary_search(arr, target):
         return -1
 
 
+# Time complexity = O(log n)
+# Space complexity = O(1)
+
+
 arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 24
+target = 16
 
 left = 0
 right = len(arr) - 1
+
+result = recursive_binary_search(arr, left, right, target)
+
+if result == -1:
+    print("Element not found")
+else:
+    print(f"Element found at index {result}")
 
 result = iterative_binary_search(arr, target)
 
@@ -61,6 +59,3 @@ if result == -1:
     print("Element not found")
 else:
     print(f"Element found at index {result}")
-
-# Time complexity = O(log n)
-# Space complexity = O(1)
