@@ -14,7 +14,9 @@ def recursive_binary_search(arr, left, right, target):
         return -1
 
 
-# Time complexity = O(log n)
+# Best-Case Time complexity = O(1)
+# Average-Case Time complexity = O(log n)
+# Worst-Case Time complexity = O(log n)
 # Space complexity = O(log n)
 
 
@@ -36,7 +38,9 @@ def iterative_binary_search(arr, target):
         return -1
 
 
-# Time complexity = O(log n)
+# Best-Case Time complexity = O(1)
+# Average-Case Time complexity = O(log n)
+# Worst-Case Time complexity = O(log n)
 # Space complexity = O(1)
 
 
