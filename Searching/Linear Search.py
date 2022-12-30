@@ -9,7 +9,9 @@ def linear_search(arr, target):
         return -1
 
 
-# Time complexity = O(n)
+# Best-Case Time complexity = O(1)
+# Average-Case Time complexity = O(n)
+# Worst-Case Time complexity = O(n)
 # Space complexity = O(1)
 
 arr = [1, 4, 6, 9, 12, 15, 16, 25]
