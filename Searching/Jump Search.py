@@ -1,4 +1,4 @@
-# Junp Search
+# Jump Search
 
 import math
 
