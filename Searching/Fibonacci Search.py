@@ -11,7 +11,7 @@ def fibonacci_search(arr, target):
         fib_cur = fib_next
         fib_next = fib_cur + fib_prev
 
-    offset = 0
+    offset = -1
 
     while fib_next > 1:
         i = min(offset + fib_prev, len(arr) - 1)
