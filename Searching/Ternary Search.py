@@ -1,3 +1,9 @@
+"""
+Ternary Search: is a search algorithm that divides an array into three parts and then checks if the target value is in the left, middle, or right part. 
+If the target value is found in the middle part, the search is successful. 
+If the target value is in the left or right part, the search continues in that part until the target value is found or the end of the array is reached.
+"""
+
 # Ternary Search
 
 
