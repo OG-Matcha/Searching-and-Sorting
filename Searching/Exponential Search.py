@@ -1,3 +1,9 @@
+"""
+Exponential Search: is an algorithm, It is used when the element to be searched is not frequently found. 
+It starts by comparing x with the value of the element present at the first position, 
+if they are not equal then it starts comparing x with the value of the element present at 2^0 th position, then 2^1, 2^2 and so on.
+"""
+
 # Exponential Search
 
 
