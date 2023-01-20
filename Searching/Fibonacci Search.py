@@ -1,3 +1,9 @@
+"""
+Fibonacci Search: is a search algorithm that uses Fibonacci numbers to search an element in a sorted array. 
+The idea is to use two pointers, one with value fibonacci(k-1) and other with fibonacci(k) 
+where k is the smallest fibonacci number greater than or equal to the size of the array.
+"""
+
 # Fibonacci Search
 
 
