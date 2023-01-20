@@ -1,3 +1,9 @@
+"""
+Jump Search: It is also a searching algorithm. 
+It works by first checking the element at the current index and then jumping a fixed number of steps to check the next element. 
+It is faster than a linear search but slower than a binary search.
+"""
+
 # Jump Search
 
 import math
