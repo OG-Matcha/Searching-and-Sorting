@@ -1,3 +1,8 @@
+"""
+Linear Search: is a simple search algorithm that looks for a specific value in an array 
+by examining each element in sequence until a match is found or the end of the array is reached.
+"""
+
 # Linear Search
 
 
