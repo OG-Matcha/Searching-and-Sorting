@@ -1,13 +1,13 @@
 # Searching Algorithms
 This repository contains implementations of several popular searching algorithms in python, including:
 
-* [Binary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Binary%20Search.py)
-* [Exponential search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Exponential%20Search.py)
-* [Fibonacci search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Fibonacci%20Search.py)
-* [Interpolation search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Interpolation%20Search.py)
-* [Jump search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Jump%20Search.py)
-* [Linear search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Linear%20Search.py)
-* [Ternary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/fa46da5a14297f179f60856036b94230f00b3150/Searching/Ternary%20Search.py)
+* [Binary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Binary%20Search.py)
+* [Exponential search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Exponential%20Search.py)
+* [Fibonacci search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Fibonacci%20Search.py)
+* [Interpolation search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Interpolation%20Search.py)
+* [Jump search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Jump%20Search.py)
+* [Linear search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Linear%20Search.py)
+* [Ternary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Ternary%20Search.py)
 
 Each algorithm is implemented in its own separate python file, with a brief description of how it works and its time complexity.
 
