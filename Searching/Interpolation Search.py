@@ -1,3 +1,9 @@
+"""
+Interpolation Search: is an algorithm that can be used to search for a particular value in a sorted array, 
+it assumes that the values in the array are uniformly distributed. 
+It estimates the position of the target value by using a formula based on the array's values at its first and last positions.
+"""
+
 # Interpolation Search
 
 """
