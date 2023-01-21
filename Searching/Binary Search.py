@@ -50,22 +50,46 @@ def iterative_binary_search(arr, target):
 # Space complexity = O(1)
 
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
+import unittest
 
-left = 0
-right = len(arr) - 1
 
-result = recursive_binary_search(arr, left, right, target)
+class TestBinarySearch(unittest.TestCase):
+    def test_iterative_binary_search(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 3
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+        result = iterative_binary_search(arr, target)
 
-result = iterative_binary_search(arr, target)
+        self.assertEqual(result, 2)
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+    def test_iterative_binary_search_not_found(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 6
+
+        result = iterative_binary_search(arr, target)
+
+        self.assertEqual(result, -1)
+
+    def test_recursive_binary_search(self):
+        arr = [1, 2, 3, 4, 5]
+        left = 0
+        right = len(arr) - 1
+        target = 3
+
+        result = recursive_binary_search(arr, left, right, target)
+
+        self.assertEqual(result, 2)
+
+    def test_recursive_binary_search_not_found(self):
+        arr = [1, 2, 3, 4, 5]
+        left = 0
+        right = len(arr) - 1
+        target = 6
+
+        result = recursive_binary_search(arr, left, right, target)
+
+        self.assertEqual(result, -1)
+
+
+if __name__ == "__main__":
+    unittest.main()
