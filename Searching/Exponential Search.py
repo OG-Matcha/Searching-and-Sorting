@@ -20,6 +20,8 @@ def binary_search(arr, left, right, target):
 
 
 def exponential_search(arr, target):
+    if not arr:
+        return -1
     if arr[0] == target:
         return 0
     i = 1
@@ -34,12 +36,40 @@ def exponential_search(arr, target):
 # Space complexity = O(1)
 
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
+import unittest
 
-result = exponential_search(arr, target)
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+class TestExponentialSearch(unittest.TestCase):
+    def test_exponential_search(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 3
+        self.assertEqual(exponential_search(arr, target), 2)
+
+    def test_target_not_in_array(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 6
+        self.assertEqual(exponential_search(arr, target), -1)
+
+    def test_empty_array(self):
+        arr = []
+        target = 6
+        self.assertEqual(exponential_search(arr, target), -1)
+
+    def test_one_element_array(self):
+        arr = [3]
+        target = 3
+        self.assertEqual(exponential_search(arr, target), 0)
+
+    def test_target_at_beginning(self):
+        arr = [3, 4, 5, 6]
+        target = 3
+        self.assertEqual(exponential_search(arr, target), 0)
+
+    def test_target_at_end(self):
+        arr = [3, 4, 5, 6]
+        target = 6
+        self.assertEqual(exponential_search(arr, target), 3)
+
+
+if __name__ == "__main__":
+    unittest.main()
