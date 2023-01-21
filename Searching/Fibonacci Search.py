@@ -45,13 +45,26 @@ def fibonacci_search(arr, target):
 # Worst-Case Time complexity = O(log n)
 # Space complexity = O(1)
 
+import unittest
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
 
-result = fibonacci_search(arr, target)
+class TestFibonacciSearch(unittest.TestCase):
+    def test_fibonacci_search(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 3
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+        result = fibonacci_search(arr, target)
+
+        self.assertEqual(result, 2)
+
+    def test_fibonacci_search_not_found(self):
+        arr = [1, 2, 3, 4, 5]
+        target = 6
+
+        result = fibonacci_search(arr, target)
+
+        self.assertEqual(result, -1)
+
+
+if __name__ == "__main__":
+    unittest.main()
