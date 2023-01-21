@@ -5,7 +5,7 @@ This repository contains implementations of several popular searching algorithms
 * [Exponential search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/613bef2fa3e894aa6fd7a9fc9a5c43b3450b0c20/Searching/Exponential%20Search.py)
 * [Fibonacci search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/879f04bfb51e426d9a893b05d11fdd5458e5c5df/Searching/Fibonacci%20Search.py)
 * [Interpolation search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/6269c0b586c9be3ce39a8911055b821e1a56f918/Searching/Interpolation%20Search.py)
-* [Jump search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Jump%20Search.py)
+* [Jump search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/4b7b0f376bf137da2c6e5fbb7c5f6391d82f73fb/Searching/Jump%20Search.py)
 * [Linear search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Linear%20Search.py)
 * [Ternary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Ternary%20Search.py)
 
