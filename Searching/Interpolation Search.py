@@ -22,9 +22,6 @@ def interpolation_search(arr, target):
         if arr[left] == target:
             return left
 
-        if right < left:
-            break
-
         mid = (target - arr[left]) * (right - left) // (arr[right] - arr[left]) + left
 
         if arr[mid] == target:
