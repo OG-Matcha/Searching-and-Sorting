@@ -7,7 +7,7 @@ This repository contains implementations of several popular searching algorithms
 * [Interpolation search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/6269c0b586c9be3ce39a8911055b821e1a56f918/Searching/Interpolation%20Search.py)
 * [Jump search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/4b7b0f376bf137da2c6e5fbb7c5f6391d82f73fb/Searching/Jump%20Search.py)
 * [Linear search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/75c84eaf148d3bdd188004cac655e5ef8685ff19/Searching/Linear%20Search.py)
-* [Ternary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/1c870faaea8c4e5ea9724c4f86d389857f9e52fe/Searching/Ternary%20Search.py)
+* [Ternary search](https://github.com/OG-Matcha/Searching-and-Sorting/blob/233dee0c6625466ae0f43039f20ae64493e529d3/Searching/Ternary%20Search.py)
 
 Each algorithm is implemented in its own separate python file, with a brief description of how it works and its time complexity.
 
