@@ -63,22 +63,50 @@ def iterative_ternary_search(arr, left, right, target):
 # Space complexity = O(1)
 
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
+import unittest
 
-left = 0
-right = len(arr) - 1
 
-result = recursive_ternary_search(arr, left, right, target)
+class TestRecursiveTernarySearch(unittest.TestCase):
+    def test_recursive_ternary_search(self):
+        arr = [1, 2, 3, 4, 5]
+        left = 0
+        right = len(arr) - 1
+        target = 4
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+        result = recursive_ternary_search(arr, left, right, target)
 
-result = iterative_ternary_search(arr, left, right, target)
+        self.assertEqual(result, 3)
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+    def test_recursive_ternary_search_not_found(self):
+        arr = [1, 2, 3, 4]
+        left = 0
+        right = len(arr) - 1
+        target = 5
+
+        result = recursive_ternary_search(arr, left, right, target)
+
+        self.assertEqual(result, -1)
+
+    def test_iterative_ternary_search(self):
+        arr = [1, 2, 3, 4, 5]
+        left = 0
+        right = len(arr) - 1
+        target = 4
+
+        result = iterative_ternary_search(arr, left, right, target)
+
+        self.assertEqual(result, 3)
+
+    def test_iterative_ternary_search_not_found(self):
+        arr = [1, 2, 3]
+        left = 0
+        right = len(arr) - 1
+        target = 4
+
+        result = iterative_ternary_search(arr, left, right, target)
+
+        self.assertEqual(result, -1)
+
+
+if __name__ == "__main__":
+    unittest.main()

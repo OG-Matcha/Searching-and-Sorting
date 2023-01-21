@@ -19,12 +19,18 @@ def linear_search(arr, target):
 # Worst-Case Time complexity = O(n)
 # Space complexity = O(1)
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
+import unittest
 
-result = linear_search(arr, target)
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+class TestLinearSearch(unittest.TestCase):
+    def test_linear_search(self):
+        arr = [1, 2, 3, 4]
+        self.assertEqual(linear_search(arr, 1), 0)
+        self.assertEqual(linear_search(arr, 2), 1)
+        self.assertEqual(linear_search(arr, 3), 2)
+        self.assertEqual(linear_search(arr, 4), 3)
+        self.assertEqual(linear_search(arr, 5), -1)
+
+
+if __name__ == "__main__":
+    unittest.main()

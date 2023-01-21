@@ -32,12 +32,26 @@ def jump_search(arr, target):
 # Space complexity = O(1)
 
 
-arr = [1, 4, 6, 9, 12, 15, 16, 25]
-target = 16
+import unittest
 
-result = jump_search(arr, target)
 
-if result == -1:
-    print("Element not found")
-else:
-    print(f"Element found at index {result}")
+class TestJumpSearch(unittest.TestCase):
+    def test_jump_search(self):
+        arr = [1, 2, 3, 4, 5, 6, 7]
+
+        self.assertEqual(jump_search(arr, 1), 0)
+        self.assertEqual(jump_search(arr, 2), 1)
+        self.assertEqual(jump_search(arr, 3), 2)
+        self.assertEqual(jump_search(arr, 4), 3)
+        self.assertEqual(jump_search(arr, 5), 4)
+        self.assertEqual(jump_search(arr, 6), 5)
+        self.assertEqual(jump_search(arr, 7), 6)
+
+    def test_not_found_in_array(self):
+        arr = [1, 2, 3]
+
+        self.assertEqual(jump_search(arr, 4), -1)
+
+
+if __name__ == "__main__":
+    unittest.main()
