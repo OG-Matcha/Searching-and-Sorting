@@ -20,9 +20,9 @@ def selection_sort(arr):
         arr[mini], arr[i] = arr[i], arr[mini]
 
 
-# Best-Case Time complexity = O(n ^ 2)
-# Average-Case Time complexity = O(n ^ 2)
-# Worst-Case Time complexity = O(n ^ 2)
+# Best-Case Time complexity = O(n^2)
+# Average-Case Time complexity = O(n^2)
+# Worst-Case Time complexity = O(n^2)
 # Space complexity = O(1)
 
 import unittest
