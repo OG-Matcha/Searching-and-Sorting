@@ -21,36 +21,36 @@ For better understanding and implementation, please read the comments provided i
 <table>
   <tbody>
     <tr>
-      <th colspan=3>Searching Method</th>
-      <th colspan=3>Time Complexity</th>
+      <th>Searching Method</th>
+      <th>Time Complexity</th>
     </tr>
     <tr>
-      <td colspan=3>Binary Search</td>
-      <td colspan=3>O(log n)</td>
+      <td>Binary Search</td>
+      <td>O(log n)</td>
     </tr>
     <tr>
-      <td colspan=3>Exponential Search</td>
-      <td colspan=3>O(log n)</td>
+      <td>Exponential Search</td>
+      <td>O(log n)</td>
     </tr>
     <tr>
-      <td colspan=3>Fibonacci Search</td>
-      <td colspan=3>O(log n)</td>
+      <td>Fibonacci Search</td>
+      <td>O(log n)</td>
     </tr>
     <tr>
-      <td colspan=3>Interpolation Search</td>
-      <td colspan=3>O(log log n)</td>
+      <td>Interpolation Search</td>
+      <td>O(log log n)</td>
     </tr>
     <tr>
-      <td colspan=3>Jump Search</td>
-      <td colspan=3>O(sqrt(n))</td>
+      <td>Jump Search</td>
+      <td>O(sqrt(n))</td>
     </tr>
     <tr>
-      <td colspan=3>Linear Search</td>
-      <td colspan=3>O(n)</td>
+      <td>Linear Search</td>
+      <td>O(n)</td>
     </tr>
     <tr>
-      <td colspan=3>Ternary Search</td>
-      <td colspan=3>O(log n)</td>
+      <td>Ternary Search</td>
+      <td>O(log n)</td>
     </tr>
   </tbody>
 </table>
