@@ -29,7 +29,7 @@ def radix_sort(arr):
     return arr
 
 
-# Best-Case Time complexity = O(n * k)
+# Best-Case Time complexity = O(n * k) where k is the maximum number of digits.
 # Average-Case Time complexity = O(n * k)
 # Worst-Case Time complexity = O(n * k)
 # Space complexity = O(n + k)
