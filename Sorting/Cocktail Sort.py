@@ -34,6 +34,12 @@ def cocktail_sort(arr):
         start += 1
 
 
+# Best-Case Time complexity = O(n)
+# Average-Case Time complexity = O(n^2)
+# Worst-Case Time complexity = O(n^2)
+# Space complexity = O(1)
+
+
 import unittest
 
 
