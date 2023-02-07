@@ -28,7 +28,7 @@ def comb_sort(arr):
 
 
 # Best-Case Time complexity = O(nlogn)
-# Average-Case Time complexity = O(n^2/2^p) wherre p is a number of increment
+# Average-Case Time complexity = O(n^2/2^p) wherre p is the number of increments
 # Worst-Case Time complexity = O(n^2)
 # Space complexity = O(1)
 
